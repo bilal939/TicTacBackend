@@ -15,7 +15,7 @@ const server = http.createServer(app);
 
 const io = socketIo(server, {
   cors: {
-    origin: "*", 
+    origin: "https://tic-tac-client-qjd9.vercel.app", 
   }
 });
 
